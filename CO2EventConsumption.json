@@ -1,0 +1,16 @@
+{
+    "event_name": { "value": "Estereo Picnic", "type": "string", "unit": "name" },
+    "event_duration": { "value": 4, "type": "number", "unit": "days" },
+    "country": { "value": "Colombia", "type": "string", "unit":"country"},
+    "participants": { "value": 173000, "type": "number", "unit": "participants" },
+    "employees": { "value": 200, "type": "number", "unit": "" },
+    "heated_area": { "value": 0, "type": "number", "unit": "square meters" },
+    "air_conditioned_area": { "value": 500, "type": "number", "unit": "square meters" },
+    "number_of_people_arriving_by_car": { "value": 51900, "type": "number", "unit": "people" },
+    "average_distance_traveled_by_car": { "value": "10", "type": "string", "unit": "kilometers" },
+    "number_of_people_traveling_by_public_transport": { "value": 150, "type": "number", "unit": "people" },
+    "short_haul_flights":{"value":50, "type":"number", "unit":"trips"},
+    "medium_haul_flights":{"value":30, "type":"number", "unit":"trips"},
+    "long_haul_flights":{"value":10,"type":"number","unit":"trips"},
+    "percentage_business_class":{"value":"5", "type":"number", "unit":"percentage"}
+}
