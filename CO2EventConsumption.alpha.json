@@ -12,5 +12,6 @@
     "short_haul_flights":{"value":50, "type":"number", "unit":"trips"},
     "medium_haul_flights":{"value":30, "type":"number", "unit":"trips"},
     "long_haul_flights":{"value":10,"type":"number","unit":"trips"},
-    "percentage_business_class":{"value":"5", "type":"number", "unit":"percentage"}
+    "percentage_business_class":{"value":"5", "type":"number", "unit":"percentage"},
+    "over_night_stay_three_starts":{"value":""}
 }

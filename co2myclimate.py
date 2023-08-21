@@ -1,7 +1,7 @@
+from os import wait
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
-from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
@@ -13,9 +13,9 @@ import time
 service = ChromeService()
 driver = webdriver.Chrome(service=service)
 
-
 # Open the desired URL
 driver.get("https://co2.myclimate.org/en/event_calculators/new")
+
 
 # Function to check if the button is clickable
 def is_button_clickable():
@@ -84,12 +84,25 @@ air_conditioned_area = driver.find_element(
 # Sending keys to the input field to set the air conditioned area
 air_conditioned_area.send_keys('500')
 
+
+
+# Construct the JavaScript code to find the button element
+button_js = "return document.querySelector('div[class=\"carousel-item active\"] a[role=\"button\"]')"
+
+# Execute the JavaScript code to find the button element
+button = driver.execute_script(button_js)
+
+# Click on the button element
+button.click()
+
 # Finding the input element for number of people arriving by car by ID
 people_arriving_by_car = driver.find_element(
     By.ID,'event_calculator_car_number_of_visitors')
 
 # Sending keys to the input field to set the number of people arriving by car
 people_arriving_by_car.send_keys('51900')
+
+
 
 average_distance_traveled_car = driver.find_element(By.ID,'event_calculator_car_average_distance_km')
 average_distance_traveled_car.send_keys('30')
@@ -126,6 +139,15 @@ long_flights_amount_input.send_keys('5')
 percentage_bussines_class = driver.find_element(By.ID,'event_calculator_business_or_first_flights_per_cent')
 percentage_bussines_class.send_keys('5')
 
+# Construct the JavaScript code to find the second button element
+button_2_js = 'return document.querySelector("div[class=\'carousel-item active\'] a:nth-child(2)")'
+
+# Execute the JavaScript code to find the second button element
+button_2 = driver.execute_script(button_2_js)
+
+# Click on the second button element
+button_2.click()
+
 
 input_2_3_star = driver.find_element(By.ID, 'event_calculator_stay_number_3_stars')
 input_2_3_star.send_keys('10')  # Replace '10' with your desired value
@@ -136,6 +158,10 @@ input_4_star.send_keys('5')  # Replace '5' with your desired value
 
 input_5_star = driver.find_element(By.ID, 'event_calculator_stay_number_5_stars')
 input_5_star.send_keys('3')  # Replace '3' with your desired value
+
+buton_3_js = 'return document.querySelector("#carousel-event-calculator > div > div.carousel-item.active > div.nav-buttons > a.btn.btn-fixed-height.btn-secondary.no-box-shadow.text-nowrap.px-5.my-1.ml-auto")'
+buton_3 = driver.execute_script(buton_3_js)
+buton_3.click()
 
 warm_meal_meat_amount_input = driver.find_element(By.ID, 'event_calculator_warm_meal_meat_amount')
 warm_meal_meat_amount_input.send_keys('50')  # Replace '50' with your desired value
@@ -208,7 +234,15 @@ garbage_recycling_kg_input.send_keys('20')  # Replace '20' with your desired val
 # Find the form element with ID 'new_event_calculator'
 form_element = driver.find_element(By.ID, 'new_event_calculator')
 
+
+
 # Submit the form
 form_element.submit()
 
 time.sleep(100)
+
+
+
+
+
+  
