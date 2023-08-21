@@ -1,11 +1,7 @@
-from os import wait
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.chrome.service import Service as ChromeService
-from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 
 import time
 
@@ -139,14 +135,9 @@ long_flights_amount_input.send_keys('5')
 percentage_bussines_class = driver.find_element(By.ID,'event_calculator_business_or_first_flights_per_cent')
 percentage_bussines_class.send_keys('5')
 
-# Construct the JavaScript code to find the second button element
-button_2_js = 'return document.querySelector("div[class=\'carousel-item active\'] a:nth-child(2)")'
-
-# Execute the JavaScript code to find the second button element
-button_2 = driver.execute_script(button_2_js)
-
-# Click on the second button element
+button_2 = driver.find_element(By.CSS_SELECTOR, 'div[class=\'carousel-item active\'] a:nth-child(2)')
 button_2.click()
+
 
 
 input_2_3_star = driver.find_element(By.ID, 'event_calculator_stay_number_3_stars')
@@ -159,9 +150,10 @@ input_4_star.send_keys('5')  # Replace '5' with your desired value
 input_5_star = driver.find_element(By.ID, 'event_calculator_stay_number_5_stars')
 input_5_star.send_keys('3')  # Replace '3' with your desired value
 
-buton_3_js = 'return document.querySelector("#carousel-event-calculator > div > div.carousel-item.active > div.nav-buttons > a.btn.btn-fixed-height.btn-secondary.no-box-shadow.text-nowrap.px-5.my-1.ml-auto")'
-buton_3 = driver.execute_script(buton_3_js)
-buton_3.click()
+
+button_3 = driver.find_element(By.CSS_SELECTOR, 'div[class=\'carousel-item active\'] a:nth-child(2)')
+button_3.click()
+
 
 warm_meal_meat_amount_input = driver.find_element(By.ID, 'event_calculator_warm_meal_meat_amount')
 warm_meal_meat_amount_input.send_keys('50')  # Replace '50' with your desired value
@@ -191,10 +183,16 @@ beer_liters_input.send_keys('30')  # Replace '30' with your desired value
 spirits_liters_input = driver.find_element(By.ID, 'event_calculator_spirits_liters')
 spirits_liters_input.send_keys('10.2')  # Replace '10.2' with your desired value
 
+button_4 = driver.find_element(By.CSS_SELECTOR, 'div[class=\'carousel-item active\'] a:nth-child(2)')
+button_4.click()
+
+
 # Power Consumption
 power_consumption_input = driver.find_element(By.ID, 'event_calculator_power_consumption_kwh')
 power_consumption_input.send_keys('150')  # Replace '150' with your desired value
 
+button_5 = driver.find_element(By.CSS_SELECTOR, 'div[class=\'carousel-item active\'] a:nth-child(2)')
+button_5.click()
 # Printed Matter
 printed_matters_input = driver.find_element(By.ID, 'event_calculator_printed_matters_kg')
 printed_matters_input.send_keys('10.5')  # Replace with the desired value
@@ -214,6 +212,9 @@ vegetable_products_input.send_keys('3.5')  # Replace with the desired value
 # Area of the Stand
 event_stand_area_input = driver.find_element(By.ID, 'event_calculator_event_stand_area')
 event_stand_area_input.send_keys('50.0')  # Replace with the desired value
+
+button_6 = driver.find_element(By.CSS_SELECTOR, 'div[class=\'carousel-item active\'] a:nth-child(2)')
+button_6.click()
 
 # Transported Weight
 transported_weight_input = driver.find_element(By.ID, 'event_calculator_transported_weight')
