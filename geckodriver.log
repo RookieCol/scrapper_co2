@@ -1,0 +1,208 @@
+1692822031582	geckodriver	INFO	Listening on 127.0.0.1:53403
+1692822055053	geckodriver	INFO	Listening on 127.0.0.1:53418
+1692822259608	geckodriver	INFO	Listening on 127.0.0.1:53454
+1692822260632	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... " "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/yb/zt8mp8w53fj579kg30df4f7h0000gn/T/rust_mozprofileSh0Kao"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692822270927	Marionette	INFO	Marionette enabled
+1692822272398	Marionette	INFO	Listening on port 53466
+Read port: 53466
+1692822272990	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1692822289884	Marionette	INFO	Stopped listening on port 53466
+JavaScript warning: https://co2.myclimate.org/packs/myclimate-e2bae17c5d2bdbdcd6f3.js, line 1: Script terminated by timeout at:
+add/g.handle@https://co2.myclimate.org/packs/myclimate-e2bae17c5d2bdbdcd6f3.js:1:41525
+
+1692822326831	geckodriver	INFO	Listening on 127.0.0.1:53539
+1692822326855	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/yb/zt8mp8w53fj579kg30df4f7h0000gn/T/rust_mozprofileAraE1V"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692822327974	Marionette	INFO	Marionette enabled
+1692822328651	Marionette	INFO	Listening on port 53548
+Read port: 53548
+1692822329040	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://co2.myclimate.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://co2.myclimate.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://co2.myclimate.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://co2.myclimate.org."
+JavaScript warning: https://static.etracker.com/code/e.js, line 167: Script terminated by timeout at:
+c@https://static.etracker.com/code/e.js:167:1
+
+1692822354650	Marionette	INFO	Stopped listening on port 53548
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1692822364000	geckodriver	INFO	Listening on 127.0.0.1:53629
+1692822364022	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... " "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/yb/zt8mp8w53fj579kg30df4f7h0000gn/T/rust_mozprofileSiWjkj"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692822364973	Marionette	INFO	Marionette enabled
+1692822365548	Marionette	INFO	Listening on port 53638
+Read port: 53638
+1692822365902	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1692822380481	Marionette	INFO	Stopped listening on port 53638
+JavaScript warning: https://widget.moin.ai/main.js, line 1: Script terminated by timeout at:
+p@https://widget.moin.ai/main.js:1:112427
+
+1692822422437	geckodriver	INFO	Listening on 127.0.0.1:53707
+1692822422461	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... ize=1920x1080" "-foreground" "-no-remote" "-profile" "/var/folders/yb/zt8mp8w53fj579kg30df4f7h0000gn/T/rust_mozprofilekE0RPn"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692822423270	Marionette	INFO	Marionette enabled
+1692822423893	Marionette	INFO	Listening on port 53716
+Read port: 53716
+1692822424472	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1692822438034	Marionette	INFO	Stopped listening on port 53716
+JavaScript warning: https://static.etracker.com/code/e.js, line 167: Script terminated by timeout at:
+c@https://static.etracker.com/code/e.js:167:1
+
+1692822451824	geckodriver	INFO	Listening on 127.0.0.1:53784
+1692822451846	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... ize=1920x1080" "-foreground" "-no-remote" "-profile" "/var/folders/yb/zt8mp8w53fj579kg30df4f7h0000gn/T/rust_mozprofile4CpFCK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692822452800	Marionette	INFO	Marionette enabled
+1692822453497	Marionette	INFO	Listening on port 53793
+Read port: 53793
+1692822453794	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1692822466697	Marionette	INFO	Stopped listening on port 53793
+JavaScript warning: https://static.etracker.com/code/e.js, line 196: Script terminated by timeout at:
+a@https://static.etracker.com/code/e.js:196:620
+c@https://static.etracker.com/code/e.js:196:821
+
+1692822499095	geckodriver	INFO	Listening on 127.0.0.1:53864
+1692822500106	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... ize=1920x1080" "-foreground" "-no-remote" "-profile" "/var/folders/yb/zt8mp8w53fj579kg30df4f7h0000gn/T/rust_mozprofileDt0wa4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692822501058	Marionette	INFO	Marionette enabled
+1692822501427	Marionette	INFO	Listening on port 53875
+Read port: 53875
+1692822501695	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://co2.myclimate.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://co2.myclimate.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://co2.myclimate.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://co2.myclimate.org."
+JavaScript warning: https://co2.myclimate.org/packs/myclimate-e2bae17c5d2bdbdcd6f3.js, line 1: Script terminated by timeout at:
+get@https://co2.myclimate.org/packs/myclimate-e2bae17c5d2bdbdcd6f3.js:1:122889
+get/<@https://co2.myclimate.org/packs/myclimate-e2bae17c5d2bdbdcd6f3.js:1:130496
+get@https://co2.myclimate.org/packs/myclimate-e2bae17c5d2bdbdcd6f3.js:1:130475
+get@https://co2.myclimate.org/packs/myclimate-e2bae17c5d2bdbdcd6f3.js:1:134865
+@https://co2.myclimate.org/packs/myclimate-e2bae17c5d2bdbdcd6f3.js:1:298877
+
+1692822761486	geckodriver	INFO	Listening on 127.0.0.1:53956
+1692822761503	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... " "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/yb/zt8mp8w53fj579kg30df4f7h0000gn/T/rust_mozprofileGob0Pz"
+*** You are running in headless mode.
+1692822762124	geckodriver	INFO	Listening on 127.0.0.1:53967
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692822762735	Marionette	INFO	Marionette enabled
+1692822763146	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... " "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/yb/zt8mp8w53fj579kg30df4f7h0000gn/T/rust_mozprofilesjUViS"
+*** You are running in headless mode.
+1692822763456	Marionette	INFO	Listening on port 53971
+Read port: 53971
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692822764349	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1692822764673	Marionette	INFO	Marionette enabled
+1692822765434	Marionette	INFO	Listening on port 53982
+Read port: 53982
+1692822766042	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1692822783468	Marionette	INFO	Stopped listening on port 53971
+JavaScript warning: https://co2.myclimate.org/packs/myclimate-e2bae17c5d2bdbdcd6f3.js, line 1: Script terminated by timeout at:
+add/g.handle@https://co2.myclimate.org/packs/myclimate-e2bae17c5d2bdbdcd6f3.js:1:41525
+
+1692822783993	Marionette	INFO	Stopped listening on port 53982
+JavaScript warning: https://co2.myclimate.org/packs/myclimate-e2bae17c5d2bdbdcd6f3.js, line 1: Script terminated by timeout at:
+add/g.handle@https://co2.myclimate.org/packs/myclimate-e2bae17c5d2bdbdcd6f3.js:1:41525
+
+1692822853165	geckodriver	INFO	Listening on 127.0.0.1:54111
+1692822853191	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... ize=1920x1080" "-foreground" "-no-remote" "-profile" "/var/folders/yb/zt8mp8w53fj579kg30df4f7h0000gn/T/rust_mozprofilehS9JqT"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692822854254	Marionette	INFO	Marionette enabled
+1692822854864	Marionette	INFO	Listening on port 54120
+Read port: 54120
+1692822855401	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1692822870444	Marionette	INFO	Stopped listening on port 54120
+JavaScript warning: https://widget.moin.ai/main.js, line 1: Script terminated by timeout at:
+p@https://widget.moin.ai/main.js:1:112427
+
+1692822873767	Marionette	INFO	Stopped listening on port 53875
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1692822884529	geckodriver	INFO	Listening on 127.0.0.1:54189
+1692822885549	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... ize=1920x1080" "-foreground" "-no-remote" "-profile" "/var/folders/yb/zt8mp8w53fj579kg30df4f7h0000gn/T/rust_mozprofile810NbU"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692822886400	Marionette	INFO	Marionette enabled
+1692822887065	Marionette	INFO	Listening on port 54200
+Read port: 54200
+1692822887570	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1692822901768	Marionette	INFO	Stopped listening on port 54200
+JavaScript warning: https://static.etracker.com/code/e.js, line 167: Script terminated by timeout at:
+c@https://static.etracker.com/code/e.js:167:1
+
+1692822914650	geckodriver	INFO	Listening on 127.0.0.1:54269
+1692822914677	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... ize=1920x1080" "-foreground" "-no-remote" "-profile" "/var/folders/yb/zt8mp8w53fj579kg30df4f7h0000gn/T/rust_mozprofileGgkCa9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692822915656	Marionette	INFO	Marionette enabled
+1692822916038	Marionette	INFO	Listening on port 54278
+Read port: 54278
+1692822916302	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://co2.myclimate.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://co2.myclimate.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://co2.myclimate.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://co2.myclimate.org."
+1692822990122	geckodriver	INFO	Listening on 127.0.0.1:54357
+1692822990143	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... ize=1920x1080" "-foreground" "-no-remote" "-profile" "/var/folders/yb/zt8mp8w53fj579kg30df4f7h0000gn/T/rust_mozprofileLWocVv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692822990827	Marionette	INFO	Marionette enabled
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-TSGRXZZ490&cx=c&_slc=1, line 357: Script terminated by timeout at:
+Yo@https://www.googletagmanager.com/gtag/js?id=G-TSGRXZZ490&cx=c&_slc=1:357:586
+Pv@https://www.googletagmanager.com/gtag/js?id=G-TSGRXZZ490&cx=c&_slc=1:394:689
+fF/<@https://www.googletagmanager.com/gtag/js?id=G-TSGRXZZ490&cx=c&_slc=1:515:153
+aa.uk/<@https://www.googletagmanager.com/gtag/js?id=G-TSGRXZZ490&cx=c&_slc=1:466:126
+aa.uk/c/<@https://www.googletagmanager.com/gtag/js?id=G-TSGRXZZ490&cx=c&_slc=1:465:420
+
+1692822991934	Marionette	INFO	Listening on port 54366
+Read port: 54366
+1692822992471	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://co2.myclimate.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://co2.myclimate.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://co2.myclimate.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://co2.myclimate.org."
+1692823008605	Marionette	INFO	Stopped listening on port 54366
+JavaScript warning: https://co2.myclimate.org/assets/chartjs-3e6b407b42e3c4bf4cff54ddfb53001f7a12b952ce412475d9f70c7214fec1bd.js, line 35: Script terminated by timeout at:
+pe@https://co2.myclimate.org/assets/chartjs-3e6b407b42e3c4bf4cff54ddfb53001f7a12b952ce412475d9f70c7214fec1bd.js:35:12672
+value@https://co2.myclimate.org/assets/chartjs-3e6b407b42e3c4bf4cff54ddfb53001f7a12b952ce412475d9f70c7214fec1bd.js:42:10326
+value@https://co2.myclimate.org/assets/chartjs-3e6b407b42e3c4bf4cff54ddfb53001f7a12b952ce412475d9f70c7214fec1bd.js:42:16701
+value/<@https://co2.myclimate.org/assets/chartjs-3e6b407b42e3c4bf4cff54ddfb53001f7a12b952ce412475d9f70c7214fec1bd.js:40:4384
+value@https://co2.myclimate.org/assets/chartjs-3e6b407b42e3c4bf4cff54ddfb53001f7a12b952ce412475d9f70c7214fec1bd.js:40:4173
+value/this._request<@https://co2.myclimate.org/assets/chartjs-3e6b407b42e3c4bf4cff54ddfb53001f7a12b952ce412475d9f70c7214fec1bd.js:40:3986
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1692823255448	geckodriver	INFO	Listening on 127.0.0.1:54453
+1692823255463	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... ize=1920x1080" "-foreground" "-no-remote" "-profile" "/var/folders/yb/zt8mp8w53fj579kg30df4f7h0000gn/T/rust_mozprofilewE66Y3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692823256193	Marionette	INFO	Marionette enabled
+1692823256849	Marionette	INFO	Listening on port 54462
+Read port: 54462
+1692823257247	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://co2.myclimate.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://co2.myclimate.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://co2.myclimate.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://co2.myclimate.org."
+1692823274927	Marionette	INFO	Stopped listening on port 54462

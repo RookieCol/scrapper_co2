@@ -1,20 +1,21 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.select import Select
-from selenium.webdriver.chrome.service import Service as ChromeService
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import JSONResponse
 from models import CO2CalculationInput  # Adjust the import path based on your project structure
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.select import Select
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 import time
 
 app = FastAPI()
+
 
 def wait_for_button_to_be_clickable(driver, button_locator):
     return WebDriverWait(driver, 3).until(
         EC.element_to_be_clickable(button_locator)
     )
+
 
 def is_button_clickable(driver):
     try:
@@ -24,12 +25,15 @@ def is_button_clickable(driver):
     except:
         return False
 
+
 @app.post('/co2calculation')
 def calculate_co2(input_data: CO2CalculationInput):
-    options = webdriver.ChromeOptions()
-    options.add_argument('--headless')
-    service = ChromeService()
-    driver = webdriver.Chrome(service=service,options=options)
+    options = webdriver.FirefoxOptions()
+    #options.add_argument('--headless')
+    options.add_argument('window-size=1920x1080')
+
+    path_to_geckodriver = '/Users/santiagoviana/Downloads/geckodriver'
+    driver = webdriver.Firefox(executable_path=path_to_geckodriver, options=options)
 
     try:
         # Open the desired URL
@@ -244,7 +248,6 @@ def calculate_co2(input_data: CO2CalculationInput):
         event_stand_area.send_keys(input_data.event_stand_area)  # Replace with the desired value
         
 
-       
         button_6_locator = (By.CSS_SELECTOR, 'div[class=\'carousel-item active\'] a:nth-child(2)')
         wait_for_button_to_be_clickable(driver, button_6_locator).click()
         # Transported Weight
@@ -301,13 +304,23 @@ def calculate_co2(input_data: CO2CalculationInput):
             section_amount = section.find_element(By.TAG_NAME, 'dd').text
             section_data[section_name] = section_amount
 
-       
+        driver.close()
+        driver.quit()
 
         # Crear el diccionario de resultados
         result = {
             "co2_amount": co2_amount_text,
             "sections": section_data
         }
+
+        # Convertir el valor en "co2_amount" a flotante
+        co2_amount_text = result["co2_amount"].split(":")[1].split("t")[0].strip()
+        result["co2_amount"] = float(co2_amount_text)
+
+        # Convertir los valores en "sections" a flotantes
+        for section, value in result["sections"].items():
+            result["sections"][section] = float(value.split(" ")[0])
+
 
         # Devolver la respuesta en formato JSON
         return JSONResponse(content=result)
