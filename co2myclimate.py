@@ -301,13 +301,23 @@ def calculate_co2(input_data: CO2CalculationInput):
             section_amount = section.find_element(By.TAG_NAME, 'dd').text
             section_data[section_name] = section_amount
 
-       
+        driver.close()
+        driver.quit()
 
         # Crear el diccionario de resultados
         result = {
             "co2_amount": co2_amount_text,
             "sections": section_data
         }
+
+        # Convertir el valor en "co2_amount" a flotante
+        co2_amount_text = result["co2_amount"].split(":")[1].split("t")[0].strip()
+        result["co2_amount"] = float(co2_amount_text)
+
+        # Convertir los valores en "sections" a flotantes
+        for section, value in result["sections"].items():
+            result["sections"][section] = float(value.split(" ")[0])
+
 
         # Devolver la respuesta en formato JSON
         return JSONResponse(content=result)
